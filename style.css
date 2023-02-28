@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+
+body {   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b7bdca;
+}
+
+
+header {
+   
+    background-color: white;
+    padding: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    
+
+}
+header h1{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+}
+
+nav {
+    background-image: linear-gradient(#9eacad, transparent);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 50%);
+}
+
+nav > a{
+    text-align: auto;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 3px;
+    margin-right: 10px;
+    transition-duration: 0.8s;
+}
+
+nav > a:hover{
+    background-image: linear-gradient(#81a8fd, transparent);
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+main img {
+    display: block;
+    margin: auto;
+}
+
+main h1{
+    background-image: linear-gradient(#889394, transparent);
+    text-align: center;
+    font-size: 1.3em;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 50%);
+}
+main h3 {
+    background-image: linear-gradient(#889394, transparent);
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 50%);
+}
+main section > p {
+    text-align: center;
+    font-size: 1.2em;
+
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    
+}
+main aside h2 {
+    text-align: center;
+}
+div.video {
+    background-color: black;
+    margin-bottom: 30px;
+    margin: 0px -10px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video >iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+main section > aside  {
+    background-color: #c6c8cc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+main section {
+    text-align: center;
+}
+
+footer {
+    background-image: linear-gradient(to top,black, transparent);
+    color: red;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+footer > p{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0px;
+}
